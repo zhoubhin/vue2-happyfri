@@ -6,12 +6,12 @@ import ajax from './config/ajax'
 import './style/common'
 import './config/rem'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 const router = new VueRouter({
-	routes
-})
+  routes
+});
 
 new Vue({
-	router,
-	store,
-}).$mount('#app')
+  router,
+  store,
+}).$mount('#app');

@@ -1,25 +1,23 @@
 <template>
-  	<div class="home_container">
-        <itemcontainer father-component="home"></itemcontainer>
-    </div>
+  <div class="home_container">
+    <itemContainer father-component="home"></itemContainer>
+  </div>
 </template>
 
 <script>
-import itemcontainer from '../../components/itemcontainer'
+  import itemContainer from '../../components/itemContainer'
 
-export default {
-	name: 'home',
-  	components: {
-  		itemcontainer
-  	},
-    created(){
-        
+  export default {
+    name: 'home',
+    components: {
+      itemContainer
+    },
+    created() {
     }
-}
+  }
 </script>
 
 <style lang="less" scoped>
-    .home_container{
-
-    }
+  .home_container {
+  }
 </style>

@@ -1,16 +1,16 @@
 <template>
   	<div>
-    	<itemcontainer father-component="item"></itemcontainer>
+    	<itemContainer father-component="item"></itemContainer>
   	</div>
 </template>
 
 <script>
-import itemcontainer from '../../components/itemcontainer'
+import itemContainer from '../../components/itemContainer'
 
 export default {
 	name: 'item',
   	components: {
-   		itemcontainer
+      itemContainer
   	},
   	created(){
       //进入题目页面，开始计时
@@ -21,6 +21,6 @@ export default {
 </script>
 
 <style lang="less">
-    
+
 
 </style>
